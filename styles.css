@@ -1,0 +1,86 @@
+.webpage {
+  background-color: white;
+  width: 1440px;
+  height: auto;
+  border-radius: 20px;;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 50px;
+  height: auto;
+}
+
+.hero-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.recipe-title {
+  font-family: 'Young Serif', sans-serif;
+}
+
+.description {
+  margin: 0 0 16px 0;
+}
+
+.recipe-info {
+  font-size: 16px;
+}
+
+.preparation {
+  background-color: #FFF5FA;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+#prep-time {
+  font-family: 'outfit-bold', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #7B284F;
+  padding-left: 25px;
+}
+
+li {
+  padding: 0 0 10px 20px;
+}
+
+h2 {
+  font-family: 'Young Serif', sans-serif;
+  color: #854632;
+}
+
+.horizontalLine {
+  border: none;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+ol {
+  padding: 0 0 10px 20px;
+}
+
+hr {
+  border-color: #E4DED8;
+}
+
+.nutrition-table {
+  width: 100%;
+  text-align: left;
+}
+
+th {
+  text-align: left;
+  font-weight: lighter;
+  padding: 10px 0 10px 30px;
+  border-bottom: solid 1px #E4DED8;
+}
+
+td {
+  font-weight: bold;
+  color: #854632;
+  border-bottom: solid 1px #E4DED8;
+}
